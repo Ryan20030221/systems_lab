@@ -1,0 +1,4 @@
+timestamp,power,temp,utilization
+12:00,40,45,2
+12:01,145,70,95
+12:02,150,72,98
