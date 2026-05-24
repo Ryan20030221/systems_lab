@@ -8,9 +8,9 @@ samples = [
 def filter_active_samples(samples, min_utilization):
     active_samples = []
     for sample in samples:
-        if sample["utilization"]>= min_utilization:
+        if sample["utilization"] >= min_utilization:
             active_samples.append(sample)
-    
+
     return active_samples
 
 
