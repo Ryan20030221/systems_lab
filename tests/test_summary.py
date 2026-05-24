@@ -1,5 +1,6 @@
 from gpu_lab.summary import calculate_summary
 
+
 def test_summary():
     samples = [
         {"power": 100, "temp": 60, "utilization": 50},
@@ -21,4 +22,3 @@ def test_summary():
 
     assert empty_summary["sample_count"] == 0
     assert empty_summary["avg_power"] is None
-

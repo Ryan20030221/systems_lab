@@ -1,4 +1,4 @@
-from gpu_lab.validation import validate_sample, is_valid_utilization
+from gpu_lab.validation import is_valid_utilization, validate_sample
 
 valid_sample = {
     "timestamp": "12:00",

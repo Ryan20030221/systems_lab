@@ -1,7 +1,3 @@
-
-
-
-
 samples = [
     {"timestamp": "12:00", "utilization": 95},
     {"timestamp": "12:01", "utilization": -1},
@@ -9,17 +5,18 @@ samples = [
     {"timestamp": "12:03", "utilization": "bad"},
 ]
 
+
 def is_valid_utilization(value):
-            
-    if not isinstance(value,int):
+
+    if not isinstance(value, int):
         return False
-        
+
     if value > 100:
         return False
-        
-    if value < 0 :
+
+    if value < 0:
         return False
-    
+
     return True
 
 
@@ -31,11 +28,11 @@ def validate_simple_sample(samples):
             valid_samples.append(sample)
         else:
             invalid_samples.append(sample)
-    
+
     return valid_samples, invalid_samples
 
 
-valid , invalid = validate_simple_sample(samples)
+valid, invalid = validate_simple_sample(samples)
 
 print("valid samples", valid)
 print("invalid smaples", invalid)

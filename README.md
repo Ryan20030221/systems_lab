@@ -1,13 +1,11 @@
 ## Setup
 
-create local python environment:
+Create a local Python environment:
 
 ```bash
-
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
-
 ```
 
 Check that Python and pip are using the local environment:
@@ -16,3 +14,27 @@ Check that Python and pip are using the local environment:
 python --version
 python -m pip --version
 ```
+
+## Tooling and checks
+
+This project uses `pytest` for automated tests and `ruff` for code quality checks.
+
+Run tests:
+
+```bash
+python -m pytest
+```
+
+Run lint checks:
+
+```bash
+python -m ruff check .
+```
+
+Format code:
+
+```bash
+python -m ruff format .
+```
+
+Before a module is considered complete, tests and lint checks should pass locally. After Module 7.5, GitHub Actions also runs these checks automatically on pushes and pull requests.
