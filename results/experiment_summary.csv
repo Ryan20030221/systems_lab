@@ -1,0 +1,2 @@
+experiment_id,date,workload,power_mode,baseline_power_mode,duration_seconds,warmup_seconds,trial_count,avg_power_w,avg_temp_c,avg_utilization_pct,avg_clock_mhz,performance_score,perf_loss_pct,power_savings_pct,decision,notes
+demo_power_001,2026-05-26,fake_workload,100%,100%,60,10,1,150,70,95,1600,100,0,0,demo_only,demo row only
