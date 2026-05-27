@@ -1,0 +1,5 @@
+{
+  "min_utilization": 50,
+  "default_results_dir": "results",
+  "default_logs_dir": "logs"
+}
