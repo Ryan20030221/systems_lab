@@ -1,3 +1,7 @@
+# systems_lab
+
+[![Tests](https://github.com/Ryan20030221/systems_lab/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/Ryan20030221/systems_lab/actions/workflows/tests.yml)
+
 ## Setup
 
 Create a local Python environment:
