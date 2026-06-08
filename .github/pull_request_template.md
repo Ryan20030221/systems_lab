@@ -2,11 +2,11 @@
 
 ## What changed
 
-- 
+-
 
 ## Why
 
-- 
+-
 
 ## Testing
 
@@ -23,7 +23,7 @@
 
 ## Notes / limitations
 
-- 
+-
 
 ## Review checklist
 
