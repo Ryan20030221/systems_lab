@@ -26,7 +26,7 @@ def load_config(config_path: Path) -> Config:
         raise FileNotFoundError(f"config file path does not exist: {config_path}")
     with open(config_path, "r",encoding="utf-8") as file:
         raw_config = json.load(file)
-    
+
     validated_config = validate_config(raw_config)
 
     return validated_config
@@ -42,7 +42,3 @@ def resolve_config(
         resolved_config[MIN_UTILIZATION_KEY] = min_utilization
 
     return validate_config(resolved_config)
-    
-
-    
-

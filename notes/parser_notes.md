@@ -9,4 +9,3 @@ because the csv is default in string so the numbers wouldn't be int format but s
 
 why should parse rows return data instead of printing only?
 because you want to save the data so that you can use it in the future vs just looking at it
-

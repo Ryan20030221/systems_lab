@@ -9,5 +9,3 @@ one pass means instead of creating 4 functions you create 1 that does the 4 at t
 
 should a sumamry return data instead of only printing?
 because its that data that's going to be fed into the other algorithms that are going to be important for decision making etc.
-
-
