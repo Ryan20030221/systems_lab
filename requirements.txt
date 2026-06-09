@@ -4,3 +4,4 @@ ruff==0.15.14
 pre-commit==4.6.0
 pytest-cov
 pyright==1.1.410
+pydantic>=2.0
